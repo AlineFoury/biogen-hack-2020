@@ -25,16 +25,16 @@ L'étude concerne 18 chevaux de sport, 9 chevaux non agressifs et 9 chevaux agre
 Working Set = suppression des arrays et des valeurs de mauvaise qualité, suppression des gènes non exprimés, correction pour les biais entre les arrays.
 
 **Analyses réalisées:** 
-- 1 Analyse différentielle Ag.High vs Ag.Low
+- Analyse différentielle Ag.High vs Ag.Low
 Analyse réalisée avec R (package limma, fonction lmFit) => 0 sondes DE
-- 2 Analyse de corrélation entre données phénotypiques et transcriptomiques
+- Analyse de corrélation entre données phénotypiques et transcriptomiques
 Analyse sPLS-DA réalisée avec R (package mixOmics, fonction splsda) => 326 sondes discriminantes (critères de sélection : VIP>1, Freq >0.50) => 272 gènes discriminants
-- 3 Recherche des voies de signalisation
+- Recherche des voies de signalisation
 Analyse réalisée avec :
-  - a IPA 
+  - IPA 
 => 1er canonical pathway : NF-kB / Regulator Effects : IL12, Interferon alpha, TNF / Network autour de NF-kB
 => Voie métabolique majeure : l'inflammation
-  - b Enrichr
+  - Enrichr
 L'inflammation est retrouvée dans les bases de données BioCarta 2016 et NCI-Nature 2016
 
 ## Résultats attendus
